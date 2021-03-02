@@ -1,7 +1,7 @@
 ---
 title: winget help Command
 description: Displays help for all the supported commands.
-ms.date: 04/28/2020
+ms.date: 03/02/2021
 ms.topic: article
 ms.localizationpriority: medium
 ---
