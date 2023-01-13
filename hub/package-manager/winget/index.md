@@ -39,11 +39,14 @@ To install winget on Windows Sandbox, follow these steps from a Windows PowerShe
 
 ```powershell
 $ProgressPreference='Silent'
+'This is the stable release of Windows Package Manager.  If you would like a preview or different version of the Package Manager, go to https://github.com/microsoft/winget-cli/releases. Copy the URL of the version you would prefer and update the link below.'
 Invoke-WebRequest -Uri https://github.com/microsoft/winget-cli/releases/download/v1.3.2691/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -OutFile .\MicrosoftDesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile Microsoft.VCLibs.x64.14.00.Desktop.appx
 Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
 Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 ```
+
+The Windows Package Manager repository also includes a script that will install the Windows Package Manager in a Sandbox. See 'https://github.com/microsoft/winget-pkgs/blob/master/Tools/SandboxTest.ps1'
 
 For more information on Windows Sandbox, including how to install a sandbox and what to expect from it's usage, see the [Windows Sandbox docs](/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
 
