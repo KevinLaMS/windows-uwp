@@ -21,6 +21,8 @@ To add the GitHub extension, select the Extensions tab in Dev Home, then select 
 
 When signing into GitHub using the Dev Home GitHub Extension, your GitHub credentials are added to the [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). This is how Dev Home is able to access information relevant to your GitHub account. Currently DevHome supports only a single GitHub account. (See the [DevHome Extension repo on GitHub](https://github.com/microsoft/devhomegithubextension/issues/276) for updates on adding support for multiple accounts.)
 
+If you are using the extension to access a private repository, the organization must allow access to the Dev Home GitHub Extension. The organization can grant access from the following URL:  https://github.com/organizations/<orgname>/settings/oauth_application_policy. Where <orgname> is the enterprises GitHub organization.
+
 Want to contribute to or file an issue on this extension? See the open source [GitHub extension repository for Dev Home](https://github.com/microsoft/devhomegithubextension).
 
 ### Dev Home widgets customized using the GitHub extension
@@ -48,6 +50,7 @@ The Dev Home Azure extension provides Azure DevOps (ADO) integration into Dev Ho
 To add the Azure extension, select the **Extensions** tab in Dev Home, then select **Get** on the Azure extension from the list of Dev Home extensions **Available in the Microsoft Store**.
 
 If you're logged into Windows with an Azure work account, the extension will automatically detect your account after installation.
+If you are using the extension to access a private repository, the organization must allow access to the Dev Home GitHub Extension. The organization can grant access from the following URL:  https://github.com/organizations/<orgname>/settings/oauth_application_policy. Where <orgname> is the enterprises GitHub organization.
 
 Want to contribute to or file an issue on this extension? See the open source [Azure extension repository for Dev Home](https://github.com/microsoft/devhomeazureextension).
 
